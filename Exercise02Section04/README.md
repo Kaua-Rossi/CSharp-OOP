@@ -22,3 +22,4 @@ Dados do segundo funcionário:
 Nome: Ana
 Salário: 6700.00
 Salário médio = 6500.00
+```
