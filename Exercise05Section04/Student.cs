@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercise05Section04
+﻿namespace Exercise05Section04
 {
     internal class Student
     {
