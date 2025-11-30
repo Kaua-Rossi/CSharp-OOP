@@ -11,20 +11,20 @@ namespace Exercise01Section04
             
             Console.WriteLine("Dados da primeira pessoa: ");
             Console.Write("Nome: ");
-            person1.name = Console.ReadLine();
+            person1.Name = Console.ReadLine();
             Console.Write("Idade: ");
-            person1.age = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            person1.Age = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Dados da segunda pessoa: ");
             Console.Write("Nome: ");
-            person2.name = Console.ReadLine();
+            person2.Name = Console.ReadLine();
             Console.Write("Idade: ");
-            person2.age = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            person2.Age = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            if (person1.age > person2.age)
-                Console.Write($"Pessoa mais velha: {person1.name}");
+            if (person1.Age > person2.Age)
+                Console.Write($"Pessoa mais velha: {person1.Name}");
             else
-                Console.Write($"Pessoa mais velha: {person2.name}");
+                Console.Write($"Pessoa mais velha: {person2.Name}");
         }
     }
 }

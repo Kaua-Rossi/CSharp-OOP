@@ -2,22 +2,22 @@
 {
     internal class Rectangle
     {
-        public double width;
-        public double height;
+        public double Width;
+        public double Height;
 
         public double Area()
         {
-            return width * height;
+            return Width * Height;
         }
 
         public double Perimeter()
         {
-            return 2 * (width + height);
+            return 2 * (Width + Height);
         }
 
         public double Diagonal()
         {
-            return Math.Sqrt(width * width + height * height);
+            return Math.Sqrt(Width * Width + Height * Height);
         }
     }
 }

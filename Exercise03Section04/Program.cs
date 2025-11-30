@@ -11,9 +11,9 @@ namespace Exercise03Section04
             Console.WriteLine("Entre a largura e altura do retângulo: ");
             
             Console.Write("Largura: ");
-            rectangle.width = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            rectangle.Width = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Altura: ");
-            rectangle.height = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            rectangle.Height = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("ÁREA = " + rectangle.Area().ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("PERÍMETRO = " + rectangle.Perimeter().ToString("F2", CultureInfo.InvariantCulture));

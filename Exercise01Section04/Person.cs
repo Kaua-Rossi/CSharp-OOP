@@ -2,7 +2,7 @@
 {
     internal class Person
     {
-        public string name;
-        public int age;
+        public string Name;
+        public int Age;
     }
 }

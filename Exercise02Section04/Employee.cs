@@ -2,7 +2,7 @@
 {
     internal class Employee
     {
-        public string name;
-        public float salary;
+        public string Name;
+        public float Salary;
     }
 }
