@@ -1,9 +1,13 @@
-﻿namespace Exercise01Section05
+﻿using System.Globalization;
+
+namespace Exercise01Section05
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
+            
             BankAccount account;
             Console.Write("Entre o número da conta: ");
             int accountNumber =  int.Parse(Console.ReadLine() ?? "0");
