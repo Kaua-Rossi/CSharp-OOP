@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercise02Section06
+﻿namespace Exercise02Section06
 {
     internal class Employee
     {
